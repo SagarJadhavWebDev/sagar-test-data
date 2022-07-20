@@ -21,7 +21,7 @@ const ListViewPagination: React.FC<ListViewPaginationProps> = ({}) => {
   }, [currentPage, maxPages, totalPages]);
   return (
     <>
-      <div className="listview-pagination d-none d-sm-flex">
+      <div className="listview-pagination  d-sm-flex">
         <div className="prev-block">
           <button
             onClick={() => {

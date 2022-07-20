@@ -27,11 +27,15 @@ const ProjectHeader: React.FC<ProjectHeaderProps> = ({}) => {
           </button>
         </div>
         <div className="button-block d-flex d-sm-none">
-          <button className="btn list-btn">
-            <ion-icon name="list-outline" class="me-0"></ion-icon>
+          <button onClick={() => {
+              dispatch(setViewtype("table"));
+            }} className="btn list-btn">
+            <i className="bi  bi-list"></i>
           </button>
-          <button className="btn list-btn ms-2">
-            <ion-icon name="grid-outline" class="me-0"></ion-icon>
+          <button  onClick={() => {
+              dispatch(setViewtype("grid"));
+            }} className="btn list-btn ms-2">
+            <i className="bi bi-grid"></i>
           </button>
         </div>
         <div className="filter-drop">
