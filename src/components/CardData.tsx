@@ -91,7 +91,7 @@ const CardData: React.FC<CardDataProps> = ({ data }) => {
               <div className="drop-down">
                 <a href="javascript:void(0)">
                   <span>
-                    <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                  <i className="bi bi-three-dots"></i>
                   </span>
                 </a>
               </div>
