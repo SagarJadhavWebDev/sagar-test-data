@@ -1,0 +1,20 @@
+@import 'varibales.scss';
+%btn-small {
+  background-color: #6681ec;
+  color: #fff;
+  font-family: $karla;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 4px 21px;
+  border: none;
+}
+
+%btn-icon {
+  background-color: #6681ec;
+  color: #fff;
+  font-family: $karla;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 4px 15px;
+  border: none;
+}
